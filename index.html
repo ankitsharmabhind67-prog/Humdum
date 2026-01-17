@@ -1,0 +1,276 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forever One - A Love Story</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Fonts for Romantic Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-heart"></i>@Zindagi_ek_Adhoora_Safar</div>
+
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-heart"></i> Our Story</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Moments</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Connect</a></li>
+        </ul>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search memories...">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-ornament top-left">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="hero-content">
+            <h1>Forever<span class="highlight">One</span></h1>
+            <p>💕 A Journey Through Moments of Pure Love & Connection 💕</p>
+        </div>
+        <div class="video-player-wrapper">
+            <div class="video-container">
+                <video id="loveVideo" autoplay muted loop playsinline preload="auto" poster="WhatsApp Video 2026-01-12 at 12.35.11 AM.mp4">
+                    <source src="WhatsApp Video 2026-01-12 at 12.35.11 AM.mp4" type="video/mp4">
+                    <track kind="captions" src="" srclang="en" label="English">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Netflix-style Video Controls -->
+                <div class="video-controls">
+                    <div class="control-bar">
+                        <button id="playPauseBtn" class="control-btn" title="Play/Pause">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button id="skipBackBtn" class="control-btn" title="Skip 10 seconds back">
+                            <i class="fas fa-redo"></i> -10s
+                        </button>
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                            <div class="progress-handle"></div>
+                        </div>
+                        <button id="skipForwardBtn" class="control-btn" title="Skip 10 seconds forward">
+                            +10s <i class="fas fa-redo"></i>
+                        </button>
+                        <div class="volume-control">
+                            <button id="muteBtn" class="control-btn" title="Mute/Unmute">
+                                <i class="fas fa-volume-up"></i>
+                            </button>
+                            <input type="range" id="volumeSlider" min="0" max="100" value="30" class="volume-slider">
+                        </div>
+                        <button id="ccBtn" class="control-btn" title="Closed Captions">
+                            CC
+                        </button>
+                        <button id="fullscreenBtn" class="control-btn" title="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-ornament bottom-right">
+            <i class="fas fa-heart"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="section-decoration">
+            <span class="heart-icon"><i class="fas fa-heart"></i></span>
+        </div>
+        <div class="about-content">
+            <h2>✨ Our Love Story ✨</h2>
+            <p>Every moment shared is a treasure, every smile a memory to cherish forever. This is a celebration of love, connection, and the beautiful journey we share together. Through these moments, we capture the essence of what it means to truly belong with someone special.</p>
+        </div>
+        <div class="section-decoration bottom">
+            <span class="heart-icon"><i class="fas fa-heart"></i></span>
+        </div>
+    </section>
+
+    <!-- Album Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="nature-background">
+            <div class="tree left-tree"></div>
+            <div class="tree right-tree"></div>
+            <div class="floating-leaves"></div>
+        </div>
+        
+        <div class="gallery-header">
+            <div class="decoration-line">💕 🌹 💕</div>
+            <h2>💑 Our Love Story Collection 💑</h2>
+            <p>Moments of Love & Nature, Forever Together</p>
+            <div class="decoration-line">💕 🌹 💕</div>
+        </div>
+
+        <div class="album-grid">
+            <!-- Heart Frame 1 -->
+            <div class="album-card heart-frame-card frame-1">
+                <div class="frame-symbol top">💍</div>
+                <div class="heart-frame">
+                    <img src="WhatsApp Image 2026-01-12 at 12.05.09 AM (1).jpeg" alt="Moment 1" class="heart-image">
+                    <div class="frame-symbols">
+                        <span class="symbol">🌹</span>
+                        <span class="symbol">💕</span>
+                        <span class="symbol">🌹</span>
+                    </div>
+                </div>
+                <div class="album-info">
+                    <h3>✨ Our First Flight Together</h3>
+                    <p>Two hearts, one beautiful journey</p>
+                    <span class="course-badge love-badge">Forever Together</span>
+                </div>
+            </div>
+
+            <!-- Heart Frame 2 -->
+            <div class="album-card heart-frame-card frame-2">
+                <div class="frame-symbol top">💍</div>
+                <div class="heart-frame">
+                    <img src="WhatsApp Image 2026-01-12 at 12.34.45 AM.jpeg" alt="Moment 2" class="heart-image">
+                    <div class="frame-symbols">
+                        <span class="symbol">🌹</span>
+                        <span class="symbol">💕</span>
+                        <span class="symbol">🌹</span>
+                    </div>
+                </div>
+                <div class="album-info">
+                    <h3>🌿 Love in Nature's Embrace</h3>
+                    <p>Nature witnesses our eternal bond</p>
+                    <span class="course-badge love-badge">Nature's Blessing</span>
+                </div>
+            </div>
+
+            <!-- Heart Frame 3 -->
+            <div class="album-card heart-frame-card frame-3">
+                <div class="frame-symbol top">💍</div>
+                <div class="heart-frame">
+                    <img src="WhatsApp Image 2026-01-12 at 12.34.08 AM (1).jpeg" alt="Moment 3" class="heart-image">
+                    <div class="frame-symbols">
+                        <span class="symbol">🌹</span>
+                        <span class="symbol">💕</span>
+                        <span class="symbol">🌹</span>
+                    </div>
+                </div>
+                <div class="album-info">
+                    <h3>🌟 Forever Under The Stars</h3>
+                    <p>Our love shines brighter than the sky</p>
+                    <span class="course-badge love-badge">Eternal Love</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="testimonial-header">
+            <h2>✨ Words From Our Hearts ✨</h2>
+        </div>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <div class="star-rating">
+                    <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i>
+                </div>
+                <p>"Every moment with you is a moment I treasure forever."</p>
+                <h4>💕 With All My Love</h4>
+            </div>
+            <div class="testimonial-card">
+                <div class="star-rating">
+                    <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i>
+                </div>
+                <p>"You are my greatest adventure and my forever home."</p>
+                <h4>💑 Always & Forever</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-decoration">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="contact-container">
+            <h2>💌 Share Your Love 💌</h2>
+            <p>Let us know your thoughts and precious moments...</p>
+            <form class="contact-form" action="https://formspree.io/f/xyzapdvq" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Share your beautiful thoughts..." rows="5" required></textarea>
+                <button type="submit">Send Love Message ❤️</button>
+            </form>
+            <div id="form-message" class="form-message" style="display: none;"></div>
+            
+            <!-- Comment Section -->
+            <div class="comment-section">
+                <div class="comment-header">
+                    <div class="wish-icon">💬</div>
+                    <div class="wish-text">
+                        <span class="main">Share Your Thoughts</span>
+                        <span class="sub">Leave a beautiful message for us</span>
+                    </div>
+                </div>
+                <form class="comment-form" id="comment-form">
+                    <input type="text" id="comment-name" placeholder="Your Name" required>
+                    <input type="email" id="comment-email" placeholder="Your Email" required>
+                    <textarea id="comment-text" placeholder="Write your beautiful thoughts..." rows="4" required></textarea>
+                    <button type="submit" class="comment-submit-btn">Post Comment 💕</button>
+                </form>
+                <div id="comment-message" class="comment-message" style="display: none;"></div>
+                
+                <!-- Comments Display Area -->
+                <div id="comments-display" class="comments-display"></div>
+            </div>
+        </div>
+    </section>
+
+
+                <div class="poster-footer-message">
+                    <p>💕 Our Love is the Most Beautiful Story Ever Written 💕</p>
+                </div>
+
+                <div class="poster-decoration">
+                    <span class="deco-heart">❤️</span>
+                    <span class="deco-rose">🌹</span>
+                    <span class="deco-heart">💕</span>
+                    <span class="deco-rose">🌹</span>
+                    <span class="deco-heart">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-decoration">
+                <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i>
+            </div>
+            <p>&copy; 2026 Forever One. Crafted with <i class="fas fa-heart"></i> and pure love for our beautiful journey.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-heart"></i></a>
+            </div>
+            <div class="footer-decoration">
+                <i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Netflix-style Video Controls Script -->
+    <script src="script.js"></script>
+    <script src="email-handler.js"></script>
+    <script src="comment-handler.js"></script>
+
+</body>
+</html>
